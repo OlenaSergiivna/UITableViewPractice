@@ -13,10 +13,14 @@ class SecondViewViewController: UIViewController {
     
     @IBOutlet weak var monthLabel: UILabel!
     
+    var number: String? = ""
+    var month: String? = ""
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        numberLabel.text = number
+        monthLabel.text = month
     }
 }
