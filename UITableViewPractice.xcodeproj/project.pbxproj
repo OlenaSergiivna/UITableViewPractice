@@ -13,6 +13,7 @@
 		CE1ABB1E28C3CED100397125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1ABB1C28C3CED100397125 /* Main.storyboard */; };
 		CE1ABB2028C3CED300397125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1ABB1F28C3CED300397125 /* Assets.xcassets */; };
 		CE1ABB2328C3CED300397125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1ABB2128C3CED300397125 /* LaunchScreen.storyboard */; };
+		CE1ABB2D28C3D85400397125 /* SecondViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB2C28C3D85400397125 /* SecondViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE1ABB1F28C3CED300397125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1ABB2228C3CED300397125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE1ABB2428C3CED300397125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1ABB2C28C3D85400397125 /* SecondViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		CE1ABB1528C3CED100397125 /* UITableViewPractice */ = {
 			isa = PBXGroup;
 			children = (
+				CE1ABB2B28C3D7CD00397125 /* Views */,
+				CE1ABB2A28C3D7BB00397125 /* Controllers */,
 				CE1ABB1628C3CED100397125 /* AppDelegate.swift */,
 				CE1ABB1828C3CED100397125 /* SceneDelegate.swift */,
-				CE1ABB1A28C3CED100397125 /* ViewController.swift */,
-				CE1ABB1C28C3CED100397125 /* Main.storyboard */,
 				CE1ABB1F28C3CED300397125 /* Assets.xcassets */,
 				CE1ABB2128C3CED300397125 /* LaunchScreen.storyboard */,
 				CE1ABB2428C3CED300397125 /* Info.plist */,
 			);
 			path = UITableViewPractice;
+			sourceTree = "<group>";
+		};
+		CE1ABB2A28C3D7BB00397125 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE1ABB1A28C3CED100397125 /* ViewController.swift */,
+				CE1ABB2C28C3D85400397125 /* SecondViewViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE1ABB2B28C3D7CD00397125 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE1ABB1C28C3CED100397125 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +160,7 @@
 				CE1ABB1B28C3CED100397125 /* ViewController.swift in Sources */,
 				CE1ABB1728C3CED100397125 /* AppDelegate.swift in Sources */,
 				CE1ABB1928C3CED100397125 /* SceneDelegate.swift in Sources */,
+				CE1ABB2D28C3D85400397125 /* SecondViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
