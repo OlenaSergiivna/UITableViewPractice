@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SecondViewViewController: UIViewController {
+class SecondSimpleViewController: UIViewController {
     
     @IBOutlet weak var numberLabel: UILabel!
     

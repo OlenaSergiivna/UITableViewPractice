@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		CE1ABB1728C3CED100397125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB1628C3CED100397125 /* AppDelegate.swift */; };
 		CE1ABB1928C3CED100397125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB1828C3CED100397125 /* SceneDelegate.swift */; };
-		CE1ABB1B28C3CED100397125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB1A28C3CED100397125 /* ViewController.swift */; };
+		CE1ABB1B28C3CED100397125 /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB1A28C3CED100397125 /* SimpleViewController.swift */; };
 		CE1ABB1E28C3CED100397125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1ABB1C28C3CED100397125 /* Main.storyboard */; };
 		CE1ABB2028C3CED300397125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1ABB1F28C3CED300397125 /* Assets.xcassets */; };
 		CE1ABB2328C3CED300397125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1ABB2128C3CED300397125 /* LaunchScreen.storyboard */; };
-		CE1ABB2D28C3D85400397125 /* SecondViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB2C28C3D85400397125 /* SecondViewViewController.swift */; };
+		CE1ABB2D28C3D85400397125 /* SecondSimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB2C28C3D85400397125 /* SecondSimpleViewController.swift */; };
+		CE1ABB3128C3F2D600397125 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB3028C3F2D600397125 /* CustomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE1ABB1328C3CED100397125 /* UITableViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1ABB1628C3CED100397125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1ABB1828C3CED100397125 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE1ABB1A28C3CED100397125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE1ABB1A28C3CED100397125 /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
 		CE1ABB1D28C3CED100397125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE1ABB1F28C3CED300397125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1ABB2228C3CED300397125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE1ABB2428C3CED300397125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE1ABB2C28C3D85400397125 /* SecondViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewViewController.swift; sourceTree = "<group>"; };
+		CE1ABB2C28C3D85400397125 /* SecondSimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSimpleViewController.swift; sourceTree = "<group>"; };
+		CE1ABB3028C3F2D600397125 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +74,8 @@
 		CE1ABB2A28C3D7BB00397125 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CE1ABB1A28C3CED100397125 /* ViewController.swift */,
-				CE1ABB2C28C3D85400397125 /* SecondViewViewController.swift */,
+				CE1ABB2F28C3F2A400397125 /* CustomTableView */,
+				CE1ABB2E28C3EF7900397125 /* SimpleTableView */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -84,6 +86,23 @@
 				CE1ABB1C28C3CED100397125 /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CE1ABB2E28C3EF7900397125 /* SimpleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CE1ABB1A28C3CED100397125 /* SimpleViewController.swift */,
+				CE1ABB2C28C3D85400397125 /* SecondSimpleViewController.swift */,
+			);
+			path = SimpleTableView;
+			sourceTree = "<group>";
+		};
+		CE1ABB2F28C3F2A400397125 /* CustomTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CE1ABB3028C3F2D600397125 /* CustomViewController.swift */,
+			);
+			path = CustomTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,10 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1ABB1B28C3CED100397125 /* ViewController.swift in Sources */,
+				CE1ABB3128C3F2D600397125 /* CustomViewController.swift in Sources */,
+				CE1ABB1B28C3CED100397125 /* SimpleViewController.swift in Sources */,
 				CE1ABB1728C3CED100397125 /* AppDelegate.swift in Sources */,
 				CE1ABB1928C3CED100397125 /* SceneDelegate.swift in Sources */,
-				CE1ABB2D28C3D85400397125 /* SecondViewViewController.swift in Sources */,
+				CE1ABB2D28C3D85400397125 /* SecondSimpleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
