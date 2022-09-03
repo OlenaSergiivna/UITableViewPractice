@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let monthArray: [String] = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
     @IBOutlet weak var simpleTableView: UITableView!
     
@@ -32,6 +34,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = UITableViewCell()
+        
+        var content = cell.defaultContentConfiguration()
+        content.text = monthArray[indexPath.row]
+        cell.contentConfiguration = content
+        
         return cell
     }
     
