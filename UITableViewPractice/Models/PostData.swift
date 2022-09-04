@@ -9,6 +9,7 @@ import Foundation
 
 struct Post {
     
+    var user_name: String
     var avatarImageName: String
     var postImageName: String
     var viewsCount: Int
