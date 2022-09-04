@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0FC4DB28C4F4A200DF45FE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0FC4DA28C4F4A200DF45FE /* String+Extension.swift */; };
 		CE1ABB1728C3CED100397125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB1628C3CED100397125 /* AppDelegate.swift */; };
 		CE1ABB1928C3CED100397125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB1828C3CED100397125 /* SceneDelegate.swift */; };
 		CE1ABB1B28C3CED100397125 /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB1A28C3CED100397125 /* SimpleViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0FC4DA28C4F4A200DF45FE /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		CE1ABB1328C3CED100397125 /* UITableViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1ABB1628C3CED100397125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1ABB1828C3CED100397125 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE0FC4DC28C4F4AD00DF45FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FC4DA28C4F4A200DF45FE /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		CE1ABB0A28C3CED100397125 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		CE1ABB1528C3CED100397125 /* UITableViewPractice */ = {
 			isa = PBXGroup;
 			children = (
+				CE0FC4DC28C4F4AD00DF45FE /* Extensions */,
 				CE1ABB3828C3FD0200397125 /* Models */,
 				CE1ABB2B28C3D7CD00397125 /* Views */,
 				CE1ABB2A28C3D7BB00397125 /* Controllers */,
@@ -194,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0FC4DB28C4F4A200DF45FE /* String+Extension.swift in Sources */,
 				CE1ABB3128C3F2D600397125 /* CustomViewController.swift in Sources */,
 				CE1ABB3328C3F63900397125 /* PostData.swift in Sources */,
 				CE1ABB1B28C3CED100397125 /* SimpleViewController.swift in Sources */,
