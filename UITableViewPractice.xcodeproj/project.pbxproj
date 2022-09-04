@@ -16,7 +16,7 @@
 		CE1ABB2328C3CED300397125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1ABB2128C3CED300397125 /* LaunchScreen.storyboard */; };
 		CE1ABB2D28C3D85400397125 /* SecondSimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB2C28C3D85400397125 /* SecondSimpleViewController.swift */; };
 		CE1ABB3128C3F2D600397125 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB3028C3F2D600397125 /* CustomViewController.swift */; };
-		CE1ABB3328C3F63900397125 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB3228C3F63900397125 /* PostData.swift */; };
+		CE1ABB3328C3F63900397125 /* PostStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB3228C3F63900397125 /* PostStruct.swift */; };
 		CE1ABB3628C3FCF800397125 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ABB3428C3FCF800397125 /* CustomTableViewCell.swift */; };
 		CE1ABB3728C3FCF800397125 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1ABB3528C3FCF800397125 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -33,7 +33,7 @@
 		CE1ABB2428C3CED300397125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE1ABB2C28C3D85400397125 /* SecondSimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSimpleViewController.swift; sourceTree = "<group>"; };
 		CE1ABB3028C3F2D600397125 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
-		CE1ABB3228C3F63900397125 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		CE1ABB3228C3F63900397125 /* PostStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostStruct.swift; sourceTree = "<group>"; };
 		CE1ABB3428C3FCF800397125 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CE1ABB3528C3FCF800397125 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,8 +92,6 @@
 		CE1ABB2A28C3D7BB00397125 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CE1ABB2F28C3F2A400397125 /* CustomTableView */,
-				CE1ABB2E28C3EF7900397125 /* SimpleTableView */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -102,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				CE1ABB1C28C3CED100397125 /* Main.storyboard */,
+				CE1ABB2E28C3EF7900397125 /* SimpleTableView */,
+				CE1ABB2F28C3F2A400397125 /* CustomTableView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -128,7 +128,7 @@
 		CE1ABB3828C3FD0200397125 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CE1ABB3228C3F63900397125 /* PostData.swift */,
+				CE1ABB3228C3F63900397125 /* PostStruct.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 			files = (
 				CE0FC4DB28C4F4A200DF45FE /* String+Extension.swift in Sources */,
 				CE1ABB3128C3F2D600397125 /* CustomViewController.swift in Sources */,
-				CE1ABB3328C3F63900397125 /* PostData.swift in Sources */,
+				CE1ABB3328C3F63900397125 /* PostStruct.swift in Sources */,
 				CE1ABB1B28C3CED100397125 /* SimpleViewController.swift in Sources */,
 				CE1ABB3628C3FCF800397125 /* CustomTableViewCell.swift in Sources */,
 				CE1ABB1728C3CED100397125 /* AppDelegate.swift in Sources */,
